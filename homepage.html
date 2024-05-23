@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Jockey One:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=IBM Plex Sans:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Bakbak One:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Bai Jamjuree:wght@700&display=swap"
+    />
+
+    <style>
+      @font-face {
+        font-family: "Bahnschrift";
+        src: url("./public/BAHNSCHRIFT 2.TTF");
+        font-weight: 400;
+      }
+      @font-face {
+        font-family: "Bahnschrift";
+        src: url("./public/BAHNSCHRIFT 1.TTF");
+        font-weight: 700;
+      }
+      @font-face {
+        font-family: "Alte Haas Grotesk";
+        src: url("./public/AlteHaasGroteskRegular.ttf");
+        font-weight: 400;
+      }
+      @font-face {
+        font-family: "Times New Roman";
+        src: url("./public/times new roman.ttf");
+        font-weight: 400;
+      }
+      @font-face {
+        font-family: "Times New Roman";
+        src: url("./public/times new roman bold.ttf");
+        font-weight: 700;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="homepage">
+      <main class="frame-parent">
+        <div class="container-parent">
+          <div class="container"></div>
+          <div class="profile-pic">
+            <div class="image"></div>
+            <img
+              class="img-1170-1-icon"
+              loading="lazy"
+              alt=""
+              src="./public/img-1170-1@2x.png"
+            />
+          </div>
+        </div>
+        <div class="frame-wrapper">
+          <div class="frame-group">
+            <div class="uiux-designer-psychologist-parent">
+              <div class="uiux-designer">
+                UI/UX Designer / Psychologist / AI Developer
+              </div>
+              <h1 class="im-leslie-nouchie">I’M LESLIE NOUCHIE.</h1>
+            </div>
+            <div class="im-a-ghanaian-who-has-a-passi-wrapper">
+              <div class="im-a-ghanaian">
+                I’m a Ghanaian who has a passion for Art, Psychology,
+                Web-development and AI. I pride myself in my clean craftmanship
+                and client-friendly experiences. I love what i build, what i
+                design and how client and personnel are treated.
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+      <div class="hyperlinks-wrapper">
+        <div class="hyperlinks">
+          <div class="home">
+            <div class="simplicity-and-comfort-with-un-parent">
+              <div class="simplicity-and-comfort-with-un"></div>
+              <img
+                class="home-1-icon"
+                loading="lazy"
+                alt=""
+                src="./public/home-1@2x.png"
+              />
+            </div>
+          </div>
+          <div class="about" id="aboutContainer">
+            <div class="container-group">
+              <div class="container1"></div>
+              <img
+                class="user-1077114-icon"
+                loading="lazy"
+                alt=""
+                src="./public/user-1077114@2x.png"
+              />
+            </div>
+          </div>
+          <button class="portfolio" id="portfolio">
+            <div class="button-parent">
+              <div class="button"></div>
+              <img
+                class="briefcase-347847-icon"
+                alt=""
+                src="./public/briefcase-347847@2x.png"
+              />
+            </div>
+          </button>
+          <button class="projects" id="projects">
+            <div class="ellipse-parent">
+              <div class="frame-child"></div>
+              <img
+                class="project-5956597-icon"
+                alt=""
+                src="./public/project-5956597@2x.png"
+              />
+            </div>
+          </button>
+          <div class="contact" id="contactContainer">
+            <div class="ellipse-group">
+              <div class="frame-item"></div>
+              <img
+                class="email-2099199-icon"
+                loading="lazy"
+                alt=""
+                src="./public/email-2099199@2x.png"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var aboutContainer = document.getElementById("aboutContainer");
+      if (aboutContainer) {
+        aboutContainer.addEventListener("click", function (e) {
+          window.location.href = "./about-me-page.html";
+        });
+      }
+      
+      var portfolio = document.getElementById("portfolio");
+      if (portfolio) {
+        portfolio.addEventListener("click", function (e) {
+          window.location.href = "./my-portfolio.html";
+        });
+      }
+      
+      var projects = document.getElementById("projects");
+      if (projects) {
+        projects.addEventListener("click", function (e) {
+          window.location.href = "./projects.html";
+        });
+      }
+      
+      var contactContainer = document.getElementById("contactContainer");
+      if (contactContainer) {
+        contactContainer.addEventListener("click", function (e) {
+          window.location.href = "./contact.html";
+        });
+      }
+      </script>
+  </body>
+</html>
